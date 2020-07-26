@@ -1,0 +1,7 @@
+{
+  "name": "droitpublic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

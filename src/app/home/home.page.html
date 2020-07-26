@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="top">
+      Droit Public
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+<br>
+ <ion-button size="large" expand="full" color="medium"  routerLink="/sommaire" routerDirection="root" (click)=" showInterstitial()">Sommaire</ion-button>
+  <ion-button size="large" expand="full" color="primary"  routerLink="/introduction" routerDirection="root" (click)=" showInterstitial()">Introduction</ion-button>
+   <ion-button size="large" expand="full" color="warning"  routerLink="/organisation" routerDirection="root" (click)=" showInterstitial()">I- L'organisation administrative de la France</ion-button>
+     <ion-button size="large" expand="full" color="danger"  routerLink="/action" routerDirection="root" (click)=" showInterstitial()">II- L'action de l'administration</ion-button>
+       <ion-button size="large" expand="full" color="success"  routerLink="/actes" routerDirection="root" (click)=" showInterstitial()">III- Les actes de l'administration</ion-button>
+         <ion-button size="large" expand="full" color="medium"  routerLink="/contentieux" routerDirection="root" (click)=" showInterstitial()">IV- Le contentieux de l'administration </ion-button>
+           <ion-button size="large" expand="full" color="light"  routerLink="/fonction" routerDirection="root" (click)=" showInterstitial()">V- La fonction publique</ion-button>
+</ion-content>
+<ion-footer ><ion-toolbar color="danger" class="footer">Concours de la fonction publique</ion-toolbar></ion-footer>
